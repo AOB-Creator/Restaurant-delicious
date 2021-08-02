@@ -1,6 +1,5 @@
 
 
-
 function spanny(){
   var spanwords = document.querySelectorAll(".toptext7 span");
   
