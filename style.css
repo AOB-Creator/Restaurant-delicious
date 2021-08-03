@@ -417,6 +417,7 @@ section.sect2 div:first-child{
      display: flex;
      justify-content: center;
      align-items: center;
+     box-shadow: 1px 1px 19px black;
 
  }
  .sect2 .img2 i{
@@ -598,9 +599,10 @@ section.sect2{
     height: 280px;
     width: 350px;
     background-color: white;
-    box-shadow: 0px 0px 8px rgba(167, 167, 167, 0.603);
+    box-shadow: 1px 1px 8px rgba(128, 128, 128, 0.877);
     padding: 30px 20px;
     cursor: pointer;
+    
     
 }
 .cards3 div h1{
@@ -804,6 +806,7 @@ section.sect2{
     width: 320px;
     overflow: hidden;
     cursor: pointer;   
+    box-shadow: 1px 1px 5px black;
 }
 .photos4 div img{
     width: 100%;
@@ -967,6 +970,8 @@ section.sect2{
     justify-content: space-between;
     align-items: center;
     padding: 20px 0px;
+    
+    
 }
 .cards5 >div:first-child{
     width: 330px;
@@ -974,6 +979,7 @@ section.sect2{
     background: url(https://avatars.mds.yandex.net/get-zen_doc/1577695/pub_5db9866addfef600b2128d8f_5db98ae13f548700ac216b4c/scale_1200);
     background-position: center;
     background-size: cover;
+    box-shadow: 1px 1px 6px rgb(7, 7, 7);
 }
 .cards5 >div:nth-child(2){
     width: 330px;
@@ -981,6 +987,7 @@ section.sect2{
     background: url(https://cdn.idntimes.com/content-images/community/2020/04/10e235c5cae649448d8099e0c767c3cd-ac2cac54d76f67758653ee19707d0cb1.jpg);
     background-position: center;
     background-size: cover;
+    box-shadow: 1px 1px 6px rgb(7, 7, 7);
 }
 .cards5 >div:last-child{
     width: 330px;
@@ -988,6 +995,7 @@ section.sect2{
     background: url(https://bootstrapmade.com/demo/templates/Delicious/assets/img/chefs/chefs-1.jpg);
     background-position: center;
     background-size: cover;
+    box-shadow: 1px 1px 6px rgb(0, 0, 0);
 }
 .icons5 a{
     color: #444444;
