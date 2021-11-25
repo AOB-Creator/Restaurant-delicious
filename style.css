@@ -174,7 +174,9 @@ header div{
     width: 90%;
     height: 80vh;
     margin: auto;
-
+    /* background-color: #ffa011; */
+    position: relative;
+    overflow: hidden;
 }
 .sect1a .swiper-wrapper{
     
@@ -1072,6 +1074,7 @@ section.sect6{
     background: url(https://bootstrapmade.com/demo/templates/Delicious/assets/img/testimonials-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
 .darken6{
     background-color: rgba(0, 0, 0, 0.644);
@@ -1080,7 +1083,8 @@ section.sect6{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    position: relative;
+    overflow: hidden;
 }
 .img6{
     width: 100px;
@@ -1088,12 +1092,16 @@ section.sect6{
     border-radius: 50% !important;
     background-color: rgba(194, 194, 194, 0.452);
     padding: 7px;
+
 }
 .img6 img{
     border-radius: 50% !important;
     width: 100%;
     height: 100%;
 
+}
+.swiper6{
+    overflow: hidden;
 }
 .swiper6txt h1{
     font-size: 29px;
@@ -1275,7 +1283,7 @@ section.sect7{
     width: 48% !important;
     height: 60px;
     margin: 10px 10px;
-    
+    transition: 1s;
 }
 .toptext7{
     display: flex;
@@ -1304,7 +1312,7 @@ section.sect7{
 
 .nones{
     display: none;
-    
+    transition: 1s;
 }
 
 
